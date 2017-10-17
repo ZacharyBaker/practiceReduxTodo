@@ -1,0 +1,21 @@
+.AddTodoWrap {
+	form {
+		display: flex;
+		justify-content: center;
+		input {
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid rgba(0,0,0,.5);
+			&:focus {
+				outline: none;
+			}
+		}
+		button {
+			font-family: 'Indie Flower', cursive;
+			padding: 5px;
+			border-radius: 5px;
+			background: #fff;
+			border: 1px solid rgba(0,0,0,.5);
+		}
+	}
+}

@@ -1,0 +1,16 @@
+.todoItem {
+	margin: 10px 0px;
+	span {
+		margin-left: 10px;
+		// display: none;
+		color: red;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	&:hover {
+		span {
+			display: inline-block;
+		}
+	}
+}
